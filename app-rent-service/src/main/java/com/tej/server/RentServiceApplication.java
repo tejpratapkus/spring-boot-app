@@ -1,13 +1,13 @@
-package com.tej.customer;
+package com.tej.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AppCustomerServiceApplication {
+public class RentServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppCustomerServiceApplication.class, args);
+		SpringApplication.run(RentServiceApplication.class, args);
 	}
 
 }
