@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: clientservice  profiles:    active: default
+    

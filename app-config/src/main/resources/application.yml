@@ -1,5 +1,14 @@
 server:
   port: 8191
+   
 spring:
-  profiles:
-    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tejpratapkus/spring-boot-config-store
+          search-paths:
+          - '*service'
+          #username: root --for private
+          #password: test123
+         
