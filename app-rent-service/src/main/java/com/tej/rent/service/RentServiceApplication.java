@@ -1,9 +1,11 @@
-package com.tej.server;
+package com.tej.rent.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
+@EntityScan(basePackages = "com.tej.modal.rent")
 public class RentServiceApplication {
 
 	public static void main(String[] args) {

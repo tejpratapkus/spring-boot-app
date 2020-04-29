@@ -1,4 +1,11 @@
 spring:
   application:
-    name: authservice  profiles:    active: default
-    
+    name: authservice  profiles:    active: default#  security:#    user:#      name: tej
+#      password: tej123
+#      roles: ADIM,USER
+#security:#  oauth2:#    client:#      client-id: mobile
+#      client-secret: pin
+#      access-token-validity-seconds: 3600
+#      authorized-grant-types: refresh_token,authorization_code,password,client_credentials
+#      scope: READ,WRITE
+#    authorization:#      check-token-access: permitAll
