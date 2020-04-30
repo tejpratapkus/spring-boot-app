@@ -10,7 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 /**
  * @author Tej pratap 
@@ -21,14 +21,51 @@ import lombok.Data;
 
 @Entity
 @Table(name = "loyalityPoint")
-@Data
 public class Loyality {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int transactionId;
-    @ManyToOne
-    @JoinColumn
-    private Customer customer;
-    private int point;
-    private LocalDateTime expireDate;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int transactionId;
+	@JsonManagedReference
+	@ManyToOne
+	@JoinColumn
+	private Customer customer;
+	private int point;
+	private LocalDateTime expireDate;
+
+	public Loyality() {
+
+	}
+
+	public int getTransactionId() {
+		return transactionId;
+	}
+
+	public void setTransactionId(int transactionId) {
+		this.transactionId = transactionId;
+	}
+
+	public Customer getCustomer() {
+		return customer;
+	}
+
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+
+	public int getPoint() {
+		return point;
+	}
+
+	public void setPoint(int point) {
+		this.point = point;
+	}
+
+	public LocalDateTime getExpireDate() {
+		return expireDate;
+	}
+
+	public void setExpireDate(LocalDateTime expireDate) {
+		this.expireDate = expireDate;
+	}
+
 }
