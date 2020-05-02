@@ -1,4 +1,4 @@
-package com.tej.modal.vehicle;
+package com.tej.model.vehicle;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

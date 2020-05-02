@@ -2,7 +2,7 @@ package com.tej.customer.service;
 
 import java.util.List;
 
-import com.tej.modal.customer.Customer;
+import com.tej.model.customer.Customer;
 
 public interface CustomerService {
 

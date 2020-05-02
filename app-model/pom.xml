@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tej</groupId>
-	<artifactId>app-modal</artifactId>
+	<artifactId>app-model</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>app-modal</name>
 	<description>To initialize the client server</description>

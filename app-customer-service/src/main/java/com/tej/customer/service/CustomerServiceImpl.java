@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.tej.customer.repository.CustomerRepository;
-import com.tej.modal.customer.Customer;
+import com.tej.model.customer.Customer;
 
 import java.util.List;
 import java.util.Optional;

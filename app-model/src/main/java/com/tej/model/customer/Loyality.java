@@ -1,4 +1,4 @@
-package com.tej.modal.customer;
+package com.tej.model.customer;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package com.tej.modal.rent;
+package com.tej.model.rent;
 
 import java.time.LocalDateTime;
 

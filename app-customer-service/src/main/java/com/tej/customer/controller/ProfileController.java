@@ -5,7 +5,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import com.tej.customer.service.CustomerService;
-import com.tej.modal.customer.Customer;
+import com.tej.model.customer.Customer;
 
 import java.util.List;
 

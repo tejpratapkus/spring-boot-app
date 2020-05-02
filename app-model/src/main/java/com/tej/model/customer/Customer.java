@@ -1,4 +1,4 @@
-package com.tej.modal.customer;
+package com.tej.model.customer;
 
 import java.util.Set;
 
