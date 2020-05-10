@@ -1,4 +1,4 @@
-package com.tej.rent.service;
+package com.tej.rent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

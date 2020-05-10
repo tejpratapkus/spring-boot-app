@@ -21,6 +21,7 @@ import lombok.Data;
 @Table(name = "rent")
 @Data
 public class Rent {
+	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int rentId;

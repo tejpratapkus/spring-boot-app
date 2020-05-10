@@ -21,17 +21,16 @@ public class CustomerServiceImpl implements CustomerService {
 	}
 
 	@Override
-	public Customer fetchById(int profileId) {
-		Optional<Customer> customer = customerRepository.findById(profileId);
+	public Customer findById(int id) {
+		Optional<Customer> customer = customerRepository.findById(id);
 		if (customer.isPresent()) {
 			return customer.get();
-		} else {
-			return null;
 		}
+		return new Customer();
 	}
 
 	@Override
-	public List<Customer> fetchAllProfiles() {
+	public List<Customer> findAll() {
 		return customerRepository.findAll();
 	}
 }

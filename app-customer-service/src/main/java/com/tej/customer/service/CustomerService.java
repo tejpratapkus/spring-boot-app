@@ -8,7 +8,7 @@ public interface CustomerService {
 
 	Customer save(Customer customer);
 
-	Customer fetchById(int profileId);
+	Customer findById(int id);
 
-	List<Customer> fetchAllProfiles();
+	List<Customer> findAll();
 }
