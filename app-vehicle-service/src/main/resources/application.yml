@@ -1,6 +1,12 @@
-server:
-  port: 8083
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8080/oauth/check_token
+    client:
+      client-id: mobile
+      client-secret: pin
 spring:
-  application:
-    name: vehicleservice  profiles:    active: default
+  jpa:
+    hibernate:
+      ddl-auto: update
     
